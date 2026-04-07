@@ -5,7 +5,6 @@ import cors from "@fastify/cors";
 import chatRoutes from "./routes/chat.js";
 import rolesRoutes from "./routes/roles.js";
 import sessionRoutes from "./routes/sessions.js";
-import "./db/sqlite.js";
 
 const PORT = Number(process.env.PORT ?? 8080);
 const HOST = process.env.HOST ?? "0.0.0.0";
